@@ -1842,9 +1842,9 @@ def segment_reduce(op, x, offsets):
     the upper bound of the last segment). Zero-length segments are allowed.
 
     .. math::
-      y_i = \Phi_{j=\mathrm{offsets}_i}^{\mathrm{offsets}_{i+1}-1} x_j
+      y_i = \\Phi_{j=\\mathrm{offsets}_i}^{\\mathrm{offsets}_{i+1}-1} x_j
 
-    where :math:`\Phi` is the reduce operator.
+    where :math:`\\Phi` is the reduce operator.
 
     Parameters
     ----------
